@@ -28,14 +28,6 @@ public class Assigment_2_FooCompany {
         return wage;
     }
 
-    int i = 0;
-    while(i<3) {
-        System.out.println("Rule #" + i);
-        i = i+1;
-    }
-
-    
-
     public static void main(String[] arguments) {
         try (Scanner reader = new Scanner(System.in)) {
             System.out.println("Insert worked hours last week");
